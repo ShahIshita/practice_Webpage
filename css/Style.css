@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Sofia Pro', sans-serif;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #ff8f00;
+    padding: -5px 5px;
+    display: flex;
+    align-items: center;
+    padding: 0 6%;
+    justify-content: space-between;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo img {
+    height: 50px;
+    width: 200px;
+}
+
+.header-right {
+    display: flex;
+}
+/*------------------------------------------------------------------1------------------------------------------------------- */
+.container {
+    padding: 30px 6%;
+    margin-top: 0px;
+    background-image: linear-gradient(135deg, #fefefe 30px, #f8dd98 900px, #ff8f00 100%);
+}
+
+.col-sm {
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parking-img {
+    max-width: 400px;
+}
+
+.btn {
+    background-color: #ff8f00;
+    color: aliceblue;
+    border: none;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+/*------------------------------------------------------------------2------------------------------------------------------- */
+.container2 {
+    padding: 30px 6%;
+    
+}
+ .main2 {
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+}
+.img2{
+    height: auto;
+    max-width: 100px;
+}
+.card {
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .steps{
+      color:#ff8f00 ;
+      font-weight: bold;
+  }
+/*------------------------------------------------------------------3------------------------------------------------------- */
+  .container3{
+      background-color:#f8dd98;
+      padding: 30px 6%;
+  }
+  .row3{
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      font-size: 16px;
+  }
+  .tick{
+      display: flex;
+      align-items: center;
+
+  }
+  .tick img{
+    max-width: 20px;
+  }
+  .col3 p{
+    padding-left: 20px;
+  }
+/* ------------------------------------------------------------------4--------------------------------------------------------- */
+  .container4{
+    padding: 30px 6%;
+  }
+  .video-button{
+    position: absolute;
+    top: 203%;
+    z-index: 3;
+    left:47%;
+  }
+  .video-container{
+    display: flex;
+    justify-content: center;
+  }
+  .video1{
+      width: 700px;
+      height: 400px;
+  }
+  .btn1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  /* -----------------------------------------------------------------------5--------------------------------------------------------- */
+  .container5{
+    background-color:#f8dd98;
+    padding: 30px 6%;
+   
+}
+.main-cont{
+    max-width: 450px;
+    margin: auto;
+}
+.fa-icon{
+    display: flex;
+    align-items: center;
+}
+.data{
+    padding-left:15px ;
+    font-weight: bold;
+}
+/*---------------------------------------------------------------6---------------------------------------------------------------------- */
+.container6{
+    padding: 30px 6%;
+  }
+  .row-logo{
+      margin-top: 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .scroll{
+  margin: 4px, 4px;
+  padding: 10px;
+  width: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+}
